@@ -6,7 +6,7 @@ def request(flow: http.HTTPFlow) -> None:
         
         file_name = flow.request.pretty_url.split("/")[-1]
         
-        local_file_path = "/home/superuser/Downloads/sahte.exe" # Change this path with your file location.
+        local_file_path = "/home/superuser/Downloads/FakeFile.exe" # Change this path with your file location.
         
         
         try:
